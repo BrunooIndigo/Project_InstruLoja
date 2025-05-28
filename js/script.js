@@ -1,21 +1,21 @@
 function butao1() {
-  window.open("/pages/Acusticos.html" , "_blank")
+  window.open("../pages/Acusticos.html" , "_blank")
 }
 
 function butao2() {
-  window.open("/pages/guitarras.html" , "_blank")
+  window.open("../pages/guitarras.html" , "_blank")
 }
 
 function butao3() {
-  window.open("/pages/baixos.html" , "_blank")
+  window.open("../pages/baixos.html" , "_blank")
 }
 
 function butao4() {
-  window.open("/pages/perifa.html" , "_blank")
+  window.open("../pages/perifa.html" , "_blank")
 }
 
 function butao5() {
-  window.open("/pages/amps.html" , "_blank")
+  window.open("../pages/amps.html" , "_blank")
 }
 
  function rolarAteElemento() {
