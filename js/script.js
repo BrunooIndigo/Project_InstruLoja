@@ -7,15 +7,15 @@ function butao2() {
 }
 
 function butao3() {
-  window.open("../pages/baixos.html" , "_blank")
+  window.open("Project_InstruLoja/blob/main/pages/baixos.html" , "_blank")
 }
 
 function butao4() {
-  window.open("../pages/perifa.html" , "_blank")
+  window.open("Project_InstruLoja/blob/main/pages/perifa.html" , "_blank")
 }
 
 function butao5() {
-  window.open("../pages/amps.html" , "_blank")
+  window.open("Project_InstruLoja/blob/main/pages/amps.html" , "_blank")
 }
 
  function rolarAteElemento() {
@@ -23,17 +23,17 @@ function butao5() {
       destino.scrollIntoView({ behavior: "smooth" });
     }
  function cardClicavel(){
-    window.open("/pages/compra_pad.html")
+    window.open("Project_InstruLoja/blob/main/pages/compra_pad.html")
  }
  function cardClicavelguit(){
-    window.open("/pages/compraguit.html")
+    window.open("Project_InstruLoja/blob/main/pages/compraguit.html")
  }
 function cardClicavelbass(){
-    window.open("/pages/comprabass.html")
+    window.open("Project_InstruLoja/blob/main/pages/comprabass.html")
  }
  function cardClicavelperifa(){
-    window.open("/pages/compraperifa.html")
+    window.open("Project_InstruLoja/blob/main/pages/compraperifa.html")
  }
  function cardClicavelamp(){
-    window.open("/pages/compraamp.html")
+    window.open("Project_InstruLoja/blob/main/pages/compraamp.html")
  }
