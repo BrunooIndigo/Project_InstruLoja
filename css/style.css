@@ -1,0 +1,245 @@
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.icone{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.nav01{
+   height: 100px;
+   width: 100%;
+}
+.navcolor{
+  background-color:rgb(85, 85, 85);
+}
+.cornav{
+  background-color: rgb(100, 100, 100);
+}
+
+/* menu dropdown*/
+.menu {
+      list-style: none;
+      padding: 0;
+      margin-top: 17px;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+      border-radius: 20px 20px 20px 20px;
+      height: 50px;
+    }
+
+    .menu > li {
+      display: inline-block;
+      position: relative;
+    }
+
+    .menu > li > a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;     
+      
+    }
+
+    .menu:hover{
+      background-color: rgb(53, 53, 53);
+      border-radius: 10px 10px 10px 10px;
+      padding: 2px;
+      box-shadow: 10px 10px 20px rgb(0, 0, 0); 
+    }
+    /* menu dropdown*/
+
+    /* Submenu escondido*/
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: #c5c5c5;
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+      top: 100%;
+      left: -555px;
+      min-width: 1250px;
+      height: 250px;
+      z-index: 990;
+    }
+    /* fim Submenu escondido*/
+
+    .cont{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    }
+    .curss{
+      cursor: pointer;
+    }
+    /*container de titulo*/
+   .conte{
+    width: 210px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: text;
+    box-shadow: 0 3px 3px -3px rgb(65, 65, 65);
+    font-size: 20px;
+    }
+    /* fim container de titulo*/
+    .submenu li a {
+      padding: 10px 15px;
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
+    /* Mostrar submenu ao passar o mouse */
+    .menu > li:hover .submenu {
+      display: block;
+    }
+    /* hoover dos titulos de txt */
+    .txtnav{
+      height: 40px;
+      transition: background-color 0.5s ease;
+      border-radius: 10px 10px 10px 10px;
+    }
+    .txtnav:hover{
+        background-color: rgb(53, 53, 53);
+        padding: 2px;
+        box-shadow: 10px 10px 20px rgb(0, 0, 0); 
+    }
+    /*final dos hoovers txt*/
+    
+    /* card de text*/
+
+    .carde{
+     height: 50px;
+     display: flex;
+     background-color: rgb(138, 138, 138);
+     width: 210px;
+     margin-left: 35px;
+     margin-bottom: 10px;
+     margin-top: 50px;
+     color: black;
+     justify-content: center;
+     transition: background-color 0.5s ease;
+     border-radius: 10px 0 10px 0;
+     font-size: 15px;
+     border: none;
+    }
+    .carde:hover{
+        box-shadow: 10px 10px 20px rgb(0, 0, 0);  
+        padding: 2px;
+    }
+    /* index.html = Pagina Principal */
+    
+ .imgindex1{
+   margin-bottom: 1px;
+ }
+
+ .cont01{
+   background-color: rgb(100, 100, 100);
+   width: 100%;
+   height: 545px;
+ }
+ .card01{
+   justify-content: center;
+   justify-content: space-evenly;  
+  }
+  .cardalt{
+    transition: 0.5s;
+    margin-top: 80px;
+    cursor: default;
+  }
+  .cardalt:hover{
+    box-shadow: 20px 20px 25px rgb(50, 50, 50);
+  }
+  .contparca{
+    background-color: rgb(100, 100, 100);
+    height: 540px;
+    width: 100%;
+  }
+  .parca{
+    
+    margin-left: 380px;
+    text-align: center;
+    width: 500px;
+    transition: 0.5s;
+  }
+  .parca:hover{
+    box-shadow: 20px 20px 25px rgb(50, 50, 50);
+  }
+ /*footer*/
+ .fott{
+  background-color: rgb(190, 190, 190) ;
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+.iconesfot{
+  font-size: 25px;
+  text-decoration: none;
+}
+.iconesfot:hover{
+  transition: 0.5s;
+  padding: 3px;
+  color: green;
+}
+.fotcor{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/*css base model compras*/
+
+.compcont{
+   background-color: rgb(66, 66, 66);
+  width: 100%;
+  height: 490px;
+  text-align: center;
+  justify-items: center;
+  
+}
+.cardpont{
+  cursor: pointer;
+}
+/*css model compra efet*/
+.m01{
+  background-color: rgb(66, 66, 66);
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.mimg{
+  margin-top: 40px;
+  margin-left: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+}
+.mtxt{
+  margin-top: 40px;
+  margin-left: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  height: 450px;
+  border-radius: 20px 0px 20px 0px;
+  text-align: center;
+}
+.imghei{
+  margin-top: 15px;
+  height: 400px;
+}
+.butcomp{
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 217, 0);
+}
+/*class special*/ 
+.imgbass{  
+  height: 450px;
+}
