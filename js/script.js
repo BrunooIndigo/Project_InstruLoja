@@ -1,17 +1,17 @@
 function butao1() {
-  window.open("../pages/Acusticos.html" , "_blank")
+  window.open("Project_InstruLoja/pages/Acusticos.html" , "_blank")
 }
 
 function butao2() {
-  window.open("../pages/guitarras.html" , "_blank")
+  window.open("Project_InstruLoja/pages/guitarras.html" , "_blank")
 }
 
 function butao3() {
-  window.open("Project_InstruLoja/blob/main/pages/baixos.html" , "_blank")
+  window.open("Project_InstruLoja/pages/baixos.html" , "_blank")
 }
 
 function butao4() {
-  window.open("Project_InstruLoja/blob/main/pages/perifa.html" , "_blank")
+  window.open("Project_InstruLoja/pages/perifa.html" , "_blank")
 }
 
 function butao5() {
